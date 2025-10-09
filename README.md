@@ -55,19 +55,19 @@ gantt
 graph LR
 
 subgraph "專題規劃"
-    B[1 專題規劃與行程設計]
+    B[專題規劃與行程設計]
 end
 subgraph "系統分析與設計"
-    D --> E[2 資料收集與前端設計];
+    D[資料收集與前端設計];
 end
 subgraph "系統開發"
-    G --> H[3 AI 模型訓練與測試];
+    G[AI 模型訓練與測試];
 end
 subgraph "系統測試與整合"
-    I --> K[4 前後端整合與系統串接];
+    I[前後端整合與系統串接];
 end
 subgraph "文件撰寫與發表"
-    M --> N[5 最終驗收與簡報];
+    M[最終驗收與簡報];
 end
 ```
 
