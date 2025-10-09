@@ -54,20 +54,7 @@ gantt
 ```mermaid
 graph LR
 
-subgraph "專題規劃"
-    B[專題規劃與行程設計]
-end
-subgraph "系統分析與設計"
-    D[資料收集與前端設計];
-end
-subgraph "系統開發"
-    G[AI 模型訓練與測試];
-end
-subgraph "系統測試與整合"
-    I[前後端整合與系統串接];
-end
-subgraph "文件撰寫與發表"
-    M[最終驗收與簡報];
+    B[專題規劃與行程設計] ---> D[資料收集與前端設計]  ---> G[AI 模型訓練與測試]   ---> I[前後端整合與系統串接]   --->  M[最終驗收與簡報];
 end
 ```
 
