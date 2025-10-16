@@ -27,7 +27,7 @@
 ## 3. 甘特圖
 ```mermaid
 gantt
-    title 校園交通違規辨識系統 甘特圖 (2025-10-01 → 2025-12-21)
+    title AI 智能貓咪飼料推薦系統專題計畫 甘特圖 (2025-10-01 → 2025-12-21)
     dateFormat  YYYY-MM-DD
     axisFormat %m/%d
 
